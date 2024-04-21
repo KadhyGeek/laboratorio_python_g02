@@ -4,9 +4,10 @@
 """11. Crear una lista (entre floats y booleanos, 6 elementos mínimo) donde imprimas el
 penúltimo y último valor (por índice)."""
 
-"""Variables"""
+"""Listas"""
 
-lista = [1.2, 2.5, True, 5.2, 10.8, False]
+lista = [1.2, 2.5, True, 5.2, False, 10.8]
 
-print("Mi lista actualizada es la siguiente: {}".format(lista.))
+print("El primer y penúltimo elemento de la lista es {} y {} respectivamente".format(lista[0],lista[len(lista) - 2]))
+
 
