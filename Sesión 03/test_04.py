@@ -11,3 +11,21 @@ de esta lista a 3 nueva variables.
 - Mostrar por la terminal el mensaje de:
 "'Nombre' 'apellido' recibirá 'bono' soles de bono de fin de año.
 """
+
+datos=[input("ingresa nombre: "), input("ingresa apellido: "), input("ingresa distrito: "), int(input("ingresa sueldo: "))]
+
+nombre, apellido, distrito, sueldo = datos
+
+
+bono = (3 * sueldo) - (0.1 * sueldo)
+
+lista=[]
+
+lista.append(nombre)
+lista.append(apellido)
+lista.append(distrito)
+lista.append(sueldo)
+lista.append(bono)
+
+
+print("la lista es: {} ".format(lista))
