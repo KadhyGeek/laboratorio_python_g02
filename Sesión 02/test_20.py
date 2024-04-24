@@ -32,7 +32,7 @@ print("La lista 2 es: {}".format(var_2))
 
 sum = var_1 + var_2
 
-print("La lista invertida es: {}".format(sum))
+print("La lista suma de las listas es: {}".format(sum))
 
 var_1.reverse()
 var_2.reverse()
