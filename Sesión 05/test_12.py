@@ -23,6 +23,9 @@ class Carro:
         self.velocidad = velocidad
 
 
+
+
+
 """Instanciamos nuestra clase"""
 carro_1 = Carro("Negro", 50)
 print("El color del primer carro es: {}".format(carro_1.color))
