@@ -11,3 +11,22 @@
     impuesto: 10%  del sueldo
 
   """
+
+class Cuenta:
+
+    def __init__(self):
+        self.titular = input("ingrese nombre del titular: ")
+        self.sueldo = int(input("ingrese sueldo del titular: "))
+
+    def Impuesto(self):
+        if self.sueldo > 5000:
+            print(f"Hola {self.titular}, su sueldo es {self.sueldo}, por lo tanto tiene que pagar un impuesto de {self.sueldo*0.1}")
+        else:
+            print(f"Hola {self.titular}, su sueldo es {self.sueldo}, no tienes impuestos por pagar")
+
+
+cuenta_p = Cuenta()
+
+print(cuenta_p.Impuesto())
+
+

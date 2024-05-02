@@ -9,3 +9,4 @@ será la lista actualizada sin el valor que se sacará de la lista. Mostrar
 también la lista original y el número que fue eliminado."""
 
 """Funciones"""
+
