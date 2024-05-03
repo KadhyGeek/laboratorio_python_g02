@@ -11,3 +11,25 @@ debe pagar de impuesto."""
 
 """Funciones"""
 
+class Persona:
+    def __init__(self):
+        self.nombre =input("Ingrese el nombre: ")
+        self.edad = int(input("Ingrese el edad: "))
+
+
+class Empleado(Persona):
+    def __init__(self, nombre, edad):
+        self.sueldo = int(input("Ingrese el sueldo del empleado: "))
+
+    def impuesto(self):
+        if self.sueldo > 4000:
+            self.impuesto =  self.sueldo * 0.1
+            return  f"El sueldo del empleado es: {self.sueldo} y el impuesto a pagar es: {self.impuesto}"
+        else:
+            return f"El sueldo del empleado es: {self.sueldo} y no tiene impuestos por pagar"
+
+persona = Persona()
+
+empleado = Empleado(persona.nombre, persona.edad)
+print(empleado.sueldo)
+print(empleado.impuesto())

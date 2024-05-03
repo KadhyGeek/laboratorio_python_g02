@@ -18,16 +18,17 @@ class Persona:
         self.dicc_persona["nombre"] = input("ingrese el nombre de la persona: ")
         self.dicc_persona["apellido"] = input("ingrese el apellido de la persona: ")
 
-
     def agregue_edad(self):
+        self.agregre_nom_y_ape()
         self.dicc_persona["edad"] = str(int(input("ingrese la edad de la persona: ")))
+        self.dicc_persona = self.dicc_persona
         return self.dicc_persona
-
-
-
 
 datpersona = Persona()
 
-
 print(datpersona.agregue_edad())
+
+
+
+
 

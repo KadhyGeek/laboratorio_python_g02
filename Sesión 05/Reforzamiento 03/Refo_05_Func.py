@@ -10,3 +10,18 @@ también la lista original y el número que fue eliminado."""
 
 """Funciones"""
 
+lista=[]
+def agregar_list(a):
+    a = int(input("ingresar un valor: "))
+    lista.append(a)
+    return lista
+
+def eliminar_list(b):
+    b = int(input("ingresar que valor desea eliminar: "))
+    lista.remove(b)
+    return lista
+
+def lista_actuales(lista):
+    x=input("marque a para agregar y e para eliminar la lista actuales: ")
+
+lista_actual()
