@@ -11,21 +11,17 @@ usuario ingresar un valor numérico."""
 
 class Numero:
     def __init__(self):
-        self.num = self.valor()
+        self.num = int(input("Ingrese un número: "))
 
-    def cub_num(self):
-        self.c = self.num ** 3
-        return self.c
-    def valor(self):
-        self.num = int(input("ingrese un numero: "))
+    def cubo(self):
+        self.cub = self.num ** 3
+        return self.cub
 
-    def cua_cub(self):
-        self.cub_num()
-        self.cuacub = pow(self.cub, 2)
-        return self.cuacub
+    def cuadrado(self):
+        cuadr = self.cub ** 2
+        return cuadr
 
 
-num = Numero()
-#print(num.cub_num())
-print(num.cua_cub())
-print(num.valor())
+numero = Numero()
+print(numero.cubo())
+print(numero.cuadrado())

@@ -19,3 +19,21 @@
 
 """Funciones"""
 
+def generador():
+    list = []
+    num_ini, num_fin = leer_numero()
+    for i in range(num_ini, num_fin+1):
+        list.append(i**2)
+    print(list)
+
+
+
+def leer_numero():
+    ini = int(input("Ingrese el numero de inicio: "))
+    fin = int(input("Ingrese el número de fin: "))
+    return ini, fin
+
+generador()
+print(leer_numero())
+
+

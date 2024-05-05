@@ -11,17 +11,24 @@ también la lista original y el número que fue eliminado."""
 """Funciones"""
 
 lista=[]
-def agregar_list(a):
-    a = int(input("ingresar un valor: "))
-    lista.append(a)
+def agregar_list(n):
+    lista.append(n)
     return lista
 
 def eliminar_list(b):
-    b = int(input("ingresar que valor desea eliminar: "))
     lista.remove(b)
     return lista
 
 def lista_actuales(lista):
-    x=input("marque a para agregar y e para eliminar la lista actuales: ")
-
-lista_actual()
+    print(f"la lista actual contiene {lista}")
+    opcion=input("marque 'a' para agregar y 'e' para eliminar un elemento de la lista la lista actuales: ")
+    if opcion=="a":
+        elemento = input("escriba que elemento quiere agregar a la lista: ")
+        print("Despues de agregar su elemento, la lista actual es: ", agregar_list(elemento), lista_actuales(lista))
+    elif opcion=="e":
+        elemento = input("escriba que elemento de la lista que quiere eliminar a la lista: ")
+        print("Despues de eliminar su elemento, la lista actual es: ", eliminar_list(elemento), lista_actuales(lista))
+    else:
+        exit()
+    return lista
+lista_actuales(lista)
