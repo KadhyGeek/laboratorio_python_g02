@@ -6,3 +6,4 @@
 """Tipo de error: Suma de tipos de datos diferentes"""
 
 #suma = 100 + "Hola Pythonistas!!!"
+
