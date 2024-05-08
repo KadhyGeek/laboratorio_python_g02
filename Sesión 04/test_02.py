@@ -13,5 +13,3 @@ print("Mi cadena transformada en minúsculas: {}".format(mi_candena_2.lower()))
 
 """Conviritendo a un tipo título un string o cadena"""
 print("Mi cadena de formato Título es: {}".format(mi_candena.title()))
-
-

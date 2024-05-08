@@ -1,0 +1,7 @@
+
+PythonJavaNode JSRuby
+AngularReact JSJavascriptBoostrap
+MysqlPostgresqlDYNAMODb
+MysqlPostgresqlDYNAMODb
+MysqlPostgresqlDYNAMODb
+MysqlPostgresqlDYNAMODb

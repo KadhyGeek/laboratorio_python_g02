@@ -6,3 +6,17 @@ de multiplicar de ese número, done n es el número introducido."""
 
 
 
+import json
+
+json_data = '{"a":1,"b":2,"c":3,"d":4,"e":5}'
+
+json_to_python = json.loads(json_data)
+print(json_to_python)
+
+data_python = {'nombre' : "Milagros", 'edad' : 20, 'distrito' : "Jesus Maria", 'promedio' : 16.5}
+
+cata_python_to_json = json.dumps(data_python)
+print(cata_python_to_json)
+
+
+

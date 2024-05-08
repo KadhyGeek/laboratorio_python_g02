@@ -9,3 +9,4 @@ print("El resultado de sus dos valores es: {}".format(sum))
 
 mul = oper_2(var_1, var_2)
 print("El resultado de sus dos valores es: {}".format(mul))
+
