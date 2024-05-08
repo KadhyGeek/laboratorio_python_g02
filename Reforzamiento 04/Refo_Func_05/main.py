@@ -16,3 +16,8 @@ retorna el mensaje "El nombre de usuario puede contener solo
 letras y números".
 - Si el nombre de usuario válido, la función retornará True."""
 
+from validar_nom_user import usuario as ope_1
+
+usuario = ope_1()
+
+print(usuario)
